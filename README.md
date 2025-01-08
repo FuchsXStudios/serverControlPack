@@ -1,2 +1,1 @@
-# serverControlPack
-Quality Skirpt's for your server! 
+# Quality of life skript's for your server!
