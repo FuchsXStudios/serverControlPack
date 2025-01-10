@@ -9,3 +9,9 @@ Skripts für deinen Server. Komplett kostenlos & anpassbar!
 4. Packe dann das Skirpt Core (Numnmer 1) in das Verzeichnis ./plugins/Skript/scripts und führe den Befehl: "/skirpt reload skirpt-core.sk" aus.
 // Weitere Installationen der Module in den Modulbeschreibungen \\
 ```
+
+#######
+[Skirpt](https://github.com/SkriptLang/Skript/releases)
+[SkQuery](https://www.spigotmc.org/resources/skquery-1-13-1-19.36631/)
+[Skent](https://forums.skunity.com/resources/skent.817/)
+#######
