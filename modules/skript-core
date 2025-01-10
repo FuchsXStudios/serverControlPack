@@ -1,0 +1,24 @@
+# Do not change this!
+options:
+    version: 0.1
+
+
+command /skriptcore <text>:
+	permission: skcore.main.use
+	permission message: §cDu darfst diesen Command nicht benutzen!
+	trigger:
+		if arg-1 is "reload":
+			make console execute command "/skript reload skript-core.sk"
+			wait 1 seconds
+			send "§aSkript Core wurde erfolgreich reloaded!" to player
+
+on tab complete of "/skriptcore":
+	set tab completions for position 1 to "reload" and "info" and "installnewest"
+
+
+on load:
+	if text from "https://raw.githubusercontent.com/FuchsXStudios/serverControlPack/refs/heads/main/options/latestVersion" is not "{@version}":
+		set {latest} to text from "https://raw.githubusercontent.com/FuchsXStudios/serverControlPack/refs/heads/main/options/latestVersion"
+		send "Version abgelaufen! Neuere Version (%{latest}%) hier downloadbar!" to console
+	else:
+		send "§7[§6Skript Core§7]§r §aYou're up to date!" to console
