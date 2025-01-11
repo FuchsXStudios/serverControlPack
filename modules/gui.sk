@@ -1,0 +1,7 @@
+function openGUI(p: player):
+	create a gui with virtual chest inventory with 3 rows named "&a&lSkript-Core" and shape "=========", "==s=y=c==", and "=========":
+		make gui slot "=" with light gray stained glass pane
+		make gui slot 11 with spyglass named "&6Info" with lore "&7Schaue dir das Skirpt-Core genauer an!"
+		make gui slot 13 with stone named "&cKommt bald"
+		make gui slot 15 with clock named "&6Reload" with lore "&7Reloade das Skirpt-Core System."
+	open the last gui for {_p}
